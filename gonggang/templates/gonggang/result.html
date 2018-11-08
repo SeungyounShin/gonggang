@@ -1,0 +1,81 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+<!-- OPL Demos Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-3920997-4', 'auto');
+    ga('send', 'pageview');
+</script>
+
+        <meta charset="utf-8">
+        <title>공강</title>
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="description" content="Love appster." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap 4-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <!--icons-->
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="{% static "css/style.css" %}" />
+    </head>
+    <body>
+        <!--header-->
+
+        <!--main section-->
+        <section class="bg-texture hero pt-5">
+            <div class="container">
+                <div class="row d-sm-flex">
+                    <div class="col-sm-6 text-white wow fadeIn">
+                        <div class="mt-5 pt-5 hidden-sm-down"></div>
+                        <h1>공강</h1>
+                        <h2>에브리타임 아이디,비번 입력으로 <span class="text-orange">간단하게</span> 공강인 친구를 찾아줍니다.</h2>
+                        {{ valids }}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--main features-->
+
+
+        <!--extra features-->
+
+
+        <!--pricing-->
+
+        <!--contact-->
+
+        <!--footer-->
+        <section class="bg-inverse pt-5" id="connect">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-xs-12 text-center wow fadeIn">
+                        <h2 class="hero-heading text-muted">공강</h2>
+                        <p class="mt-4">
+                            <a href="https://facebook.com/" target="_blank"><em class="ion-social-github text-facebook-alt icon-sm mr-3"></em></a>
+                        </p>
+                        <p class="pt-2 text-muted">
+                            &copy; 2017 Appster Theme. A free Bootstrap 4 theme by
+                            <a href="https://wireddots.com">Wired Dots</a>. Developed by <a href="https://twitter.com/attacomsian">@attacomsian</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
